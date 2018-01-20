@@ -1,0 +1,40 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>Playground Scorecard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="SHORTCUT ICON" href="favicon.jpg" />
+    <link rel="icon" href="favicon.jpg" type="image/ico" />
+    <script>
+      function resizeIframe(obj) {
+        obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+      }
+    </script>
+    <script src="https://awesome-table.com/AwesomeTableInclude.js"></script>
+  </head>
+
+  <body>
+    <div id='header'>
+      <h1>The Playground Project: INDIGO Scorecard</h1>
+    </div>
+
+    <div id='sidebar'>
+      <ul>
+        <li><a href="index.html" class='not-current'>Home</a></li>
+        <li><a href="results.html" class='current'>Results</a></li>
+        <li><a href="map.html" class='not-current'>Map</a></li>
+        <li><a href="report.html" class='not-current'>Report</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScBfHT2k3M76rTfy4FWeAPSuvX0orxMn_eZ4k1VC0oSN6MOGw/viewform" class='not-current'>Survey</a></li>
+      </ul>
+    </div>
+
+    <div id="body">
+      <h1>Results Table</h1>
+      <p>The table below shows the playgrounds that have been rated so far and their scores (on a scale of 1 to 5, with 5 being the best) across various categories. You can click on any of the headers to sort and can filter by score or playground name. The table may take a few seconds to load initially.</p>
+
+      <div data-type="AwesomeTableView" data-viewID="-KnBUfsmRyIgSs-UVkeP"></div>
+
+    </div>
+  </body>
+
+</html>
